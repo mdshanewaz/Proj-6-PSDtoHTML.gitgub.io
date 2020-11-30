@@ -1,0 +1,370 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Titillium Web', sans-serif; }
+
+#header .navbar {
+  background: #873c9c; }
+
+#header .nav-item {
+  font-size: 2rem; }
+
+#header .nav-item:hover {
+  background: #643a79; }
+
+#header .nav-link:visited {
+  background: #643a79; }
+
+#header .active {
+  background: #643a79; }
+
+#home-section {
+  background: linear-gradient(rgba(135, 60, 156, 0.9), rgba(135, 60, 156, 0.9)), url("../img/bg/bg1.jpg") no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 60rem;
+  position: relative; }
+  #home-section .home-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+  #home-section .btn {
+    background: #ff5c33;
+    font-size: 2rem; }
+  #home-section .home-inner {
+    padding-top: 20rem; }
+  #home-section p {
+    font-size: 4rem;
+    font-weight: bold; }
+
+#about-section {
+  background: linear-gradient(rgba(27, 225, 192, 0.9), rgba(27, 225, 192, 0.9)), url("../img/bg/bg2.jpg") no-repeat center center;
+  min-height: 85rem;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed; }
+  #about-section .about-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+  #about-section .about-inner {
+    padding-top: 16rem; }
+  #about-section h3 {
+    font-size: 4rem;
+    font-weight: bold; }
+  #about-section h3::after {
+    content: "";
+    background: #14a58c;
+    display: block;
+    height: 0.3rem;
+    width: 7rem;
+    margin: auto;
+    margin-top: 1.5rem; }
+  #about-section p {
+    font-size: 2rem;
+    margin: auto; }
+  #about-section .inner {
+    padding-top: 10rem; }
+  #about-section .img {
+    height: 7rem; }
+  #about-section h4 {
+    font-size: 3rem; }
+
+#team-section {
+  background: linear-gradient(rgba(209, 209, 209, 0.9), rgba(209, 209, 209, 0.9)), url("../img/bg/bg3.jpg") no-repeat;
+  min-height: 115rem;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed; }
+  #team-section .team-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+  #team-section .card {
+    background: #d1d1d1; }
+  #team-section h3 {
+    font-weight: bold;
+    font-size: 4rem; }
+  #team-section h3::after {
+    content: "";
+    background: #cbced4;
+    display: block;
+    height: 0.3rem;
+    width: 7rem;
+    margin: auto;
+    margin-top: 1.5rem; }
+  #team-section p, #team-section h6 {
+    font-size: 2rem; }
+  #team-section h4 {
+    font-size: 2.5rem; }
+  #team-section .team-inner {
+    padding-top: 18rem; }
+  #team-section .inner {
+    padding-top: 10rem; }
+  #team-section .fab {
+    font-size: 2.8rem;
+    color: #fff;
+    background: #8d878d;
+    margin: 0; }
+  #team-section .fab:hover {
+    color: #3292a6;
+    background: #fff; }
+
+#skills {
+  background: linear-gradient(rgba(247, 248, 250, 0.9), rgba(247, 248, 250, 0.9)), url("../img/bg/bg4.jpg") no-repeat center center;
+  min-height: 80rem;
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover; }
+  #skills .skill-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+  #skills .skills-inner {
+    padding-top: 15rem; }
+  #skills .inner {
+    padding-top: 10rem; }
+  #skills h3 {
+    font-size: 4rem;
+    font-weight: bold; }
+  #skills h3::after {
+    content: "";
+    background: #adacad;
+    display: block;
+    height: 0.3rem;
+    width: 7rem;
+    margin: auto;
+    margin-top: 1.5rem; }
+  #skills p {
+    font-size: 2rem; }
+  #skills h4 {
+    font-size: 2.5rem;
+    font-weight: bold; }
+  #skills svg.radial-progress circle {
+    stroke-width: 5; }
+  #skills svg.radial-progress text {
+    fill: #393939;
+    font-size: 1.5rem; }
+  #skills svg.web-design circle {
+    stroke: #30bae7; }
+  #skills svg.html-css circle {
+    stroke: #d74680; }
+  #skills svg.grapic-design circle {
+    stroke: #15c7a8; }
+  #skills svg.ux-ui circle {
+    stroke: #eb7d4b; }
+
+#work-section {
+  background: linear-gradient(rgba(235, 215, 162, 0.9), rgba(235, 215, 162, 0.9)), url("../img/bg/bg5.jpg") no-repeat center center;
+  min-height: 145rem;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed; }
+  #work-section .work-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+  #work-section .work-inner {
+    padding-top: 13rem; }
+  #work-section .inner {
+    padding-top: 5rem; }
+  #work-section h3 {
+    font-size: 4rem;
+    font-weight: bold; }
+  #work-section h3::after {
+    content: "";
+    background: #cfb48c;
+    display: block;
+    height: 0.3rem;
+    width: 7rem;
+    margin: auto;
+    margin-top: 1.5rem; }
+  #work-section p, #work-section h5 {
+    font-size: 2rem; }
+  #work-section .bt {
+    background: #c9b170;
+    font-weight: bold;
+    font-size: 1.4rem; }
+  #work-section .bt:hover {
+    background: #fff;
+    cursor: pointer;
+    box-shadow: inset 1px 2px #000;
+    transition: 0.5s; }
+  #work-section #btnn {
+    background: #14a58c;
+    font-size: 2rem; }
+  #work-section .mixitup-control-active {
+    background: #fff; }
+
+#blog-section {
+  background: linear-gradient(rgba(217, 28, 141, 0.9), rgba(217, 28, 141, 0.9)), url("../img/bg/bg6.jpg") no-repeat center center;
+  min-height: 90rem;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed; }
+  #blog-section .blog-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%; }
+  #blog-section .blog-inner {
+    padding-top: 13rem; }
+  #blog-section img {
+    width: 20rem; }
+  #blog-section .inner {
+    padding-top: 10rem; }
+  #blog-section h3 {
+    font-size: 4rem;
+    font-weight: bold; }
+  #blog-section h3::after {
+    content: "";
+    background: #9b1565;
+    display: block;
+    height: 0.3rem;
+    width: 7rem;
+    margin: auto;
+    margin-top: 1.5rem; }
+  #blog-section h4 {
+    font-size: 2.5rem;
+    font-weight: bold; }
+  #blog-section p {
+    font-size: 2rem; }
+  #blog-section h5 {
+    font-size: 1.3rem; }
+  #blog-section .testimonial {
+    margin-left: 2.5rem; }
+  #blog-section .spech {
+    font-style: italic; }
+
+#contact-section {
+  background: linear-gradient(rgba(60, 94, 153, 0.9), rgba(60, 94, 153, 0.9)), url("../img/bg/bg7.jpg") no-repeat center center;
+  min-height: 85rem;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed; }
+  #contact-section .contact-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+  #contact-section .contact-inner {
+    padding-top: 13rem; }
+  #contact-section h3 {
+    font-size: 4rem;
+    font-weight: bold; }
+  #contact-section h3::after {
+    content: "";
+    background: #1f3f78;
+    display: block;
+    height: 0.3rem;
+    width: 7rem;
+    margin: auto;
+    margin-top: 1.5rem; }
+  #contact-section p {
+    font-size: 2rem; }
+  #contact-section .inner {
+    padding-top: 7rem; }
+  #contact-section .btn {
+    background: #46ccdb;
+    font-size: 2rem; }
+  #contact-section .form-control {
+    background: #1f3f78;
+    border: none; }
+  #contact-section .form-control-lg {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 1.5rem; }
+  #contact-section ::placeholder {
+    color: #fff; }
+
+#footer {
+  font-size: 2rem; }
+  #footer .navbar {
+    background: #131360; }
+
+/*STICKY MENU*/
+.sticky {
+  position: fixed; }
+
+@media (max-width: 576px) {
+  .navbar .nav-item {
+    font-size: 1.8rem; }
+  .navbar .navbar-toggler-icon {
+    height: 3.5rem;
+    width: 3.5rem; }
+  #home-section {
+    min-height: 40rem; }
+    #home-section p {
+      font-size: 2rem; }
+    #home-section a {
+      font-size: 1.5rem; }
+    #home-section .home-inner {
+      padding-top: 15rem; }
+  #about-section {
+    min-height: 130rem; }
+    #about-section h3 {
+      font-size: 2rem; }
+    #about-section .about-inner {
+      padding-top: 10rem; }
+    #about-section .inner {
+      padding-top: 5rem; }
+    #about-section p {
+      font-size: 1.5rem; }
+    #about-section h4 {
+      font-size: 1.8rem; }
+  #team-section {
+    min-height: 285rem; }
+    #team-section .team-inner {
+      padding-top: 10rem; }
+    #team-section .inner {
+      padding-top: 5rem; }
+    #team-section h3 {
+      font-size: 2rem; }
+    #team-section p, #team-section h6 {
+      font-size: 1.5rem; }
+  #skills {
+    min-height: 145rem; }
+    #skills .skills-inner {
+      padding-top: 10rem; }
+    #skills .inner {
+      padding-top: 5rem; }
+    #skills h3 {
+      font-size: 2rem; }
+    #skills p {
+      font-size: 1.5rem; }
+    #skills h4 {
+      font-size: 1.8rem; }
+  #work-section {
+    min-height: 150rem; }
+    #work-section .work-inner {
+      padding-top: 8rem; }
+    #work-section h3 {
+      font-size: 2rem; }
+    #work-section p {
+      font-size: 1.5rem; }
+    #work-section .contact-inner {
+      padding-top: 10rem; }
+    #work-section h4 {
+      font-size: 1.8rem; }
+  #blog-section {
+    min-height: 95rem; }
+    #blog-section h3 {
+      font-size: 2rem; }
+    #blog-section h4 {
+      font-size: 1.8rem; }
+    #blog-section p {
+      font-size: 1.5rem; }
+    #blog-section .blog-inner {
+      padding-top: 10rem; }
+    #blog-section .inner {
+      padding-top: 5rem; }
+    #blog-section .clear {
+      background: #d91c8d; }
+  #contact-section h3 {
+    font-size: 2rem; }
+  #contact-section p {
+    font-size: 1.5rem; }
+  #contact-section .contact-inner {
+    padding-top: 10rem; }
+  #contact-section .btn {
+    font-size: 1.5rem; } }

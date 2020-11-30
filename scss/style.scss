@@ -1,0 +1,488 @@
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+#header{
+    .navbar{
+        background: rgba(135,60,156,1);
+    }
+    .nav-item{
+        font-size: 2rem;
+    }
+    .nav-item:hover{
+        background: rgba(100,58,121,1);
+    }
+    .nav-link:visited{
+        background: rgba(100,58,121,1);
+    }
+    .active{
+        background: rgba(100,58,121,1);   
+    }
+}
+#home-section{
+    background: linear-gradient(rgba(135,60,156,0.9),rgba(135,60,156,0.9)), url('../img/bg/bg1.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 60rem;
+    position: relative;
+    .home-overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .btn{
+        background: #ff5c33;
+        font-size: 2rem;
+    }
+    .home-inner{
+        padding-top: 20rem;
+    }
+    p{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+}
+#about-section{
+    background: linear-gradient(rgba(27, 225, 192,0.9),rgba(27, 225, 192,0.9)), url('../img/bg/bg2.jpg') no-repeat center center;
+    min-height: 85rem;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    .about-overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .about-inner{
+        padding-top: 16rem;
+    }
+    h3{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    h3::after{
+        content: "";
+        background: #14a58c;
+        display: block;
+        height: 0.3rem;
+        width: 7rem;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    p{
+        font-size: 2rem;
+        margin: auto;
+    }
+    .inner{
+        padding-top: 10rem;
+    } 
+    .img{
+        height: 7rem;
+    } 
+    h4{
+        font-size: 3rem;
+    }
+}
+#team-section{
+    background: linear-gradient(rgba(209, 209, 209, 0.9), rgba(209, 209, 209, 0.9)), url('../img/bg/bg3.jpg') no-repeat;
+    min-height: 115rem;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    .team-overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .card{
+        background: rgb(209, 209, 209);
+    }
+    h3{
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    h3::after{
+        content: "";
+        background: rgb(203, 206, 212);
+        display: block;
+        height: 0.3rem;
+        width: 7rem;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    p,h6{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 2.5rem;
+    }
+    .team-inner{
+        padding-top: 18rem;
+    }
+    .inner{
+        padding-top: 10rem;
+    }
+    .fab{
+        font-size: 2.8rem;
+        color: #fff;
+        background: rgb(141, 135, 141);
+        margin: 0;
+    }
+    .fab:hover{
+        color: #3292a6;
+        background: #fff;
+    }
+}
+#skills{
+    background: linear-gradient(rgba(247, 248, 250,0.9),rgba(247, 248, 250,0.9)), url('../img/bg/bg4.jpg') no-repeat center center;
+    min-height: 80rem;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    .skill-overlay{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .skills-inner{
+        padding-top: 15rem;
+    }
+    .inner{
+        padding-top: 10rem;
+    }
+    h3{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    h3::after{
+        content: "";
+        background: #adacad;
+        display: block;
+        height: 0.3rem;
+        width: 7rem;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    svg.radial-progress circle{
+        stroke-width: 5;
+    }
+    svg.radial-progress text{
+        fill: #393939;
+        font-size: 1.5rem;
+    }
+    svg.web-design circle{
+        stroke: #30bae7;
+    }
+    svg.html-css circle{
+        stroke: #d74680;
+    }
+    svg.grapic-design circle{
+        stroke: #15c7a8;
+    }
+    svg.ux-ui circle{
+        stroke: #eb7d4b;
+    }
+}
+#work-section{
+    background: linear-gradient(rgba(235, 215, 162, 0.9), rgba(235, 215, 162, 0.9)), url( '../img/bg/bg5.jpg') no-repeat center center;
+    min-height: 145rem;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    .work-overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .work-inner{
+        padding-top: 13rem;
+    }
+    .inner{
+        padding-top: 5rem;
+    }
+    h3{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    h3::after{
+        content: "";
+        background: #cfb48c;
+        display: block;
+        height: 0.3rem;
+        width: 7rem;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    p,h5{
+        font-size: 2rem;
+    }
+    .bt{
+        background: #c9b170;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+    .bt:hover{
+        background: #fff;
+        cursor: pointer;
+        box-shadow: inset 1px 2px #000;
+        transition: 0.5s;
+    }
+    #btnn{
+        background: #14a58c;
+        font-size: 2rem;
+    }
+    .mixitup-control-active{
+        background: #fff;
+    }
+}
+#blog-section{
+    background: linear-gradient(rgba(217, 28, 141, 0.9), rgba(217, 28, 141, 0.9)), url( '../img/bg/bg6.jpg') no-repeat center center;
+    min-height: 90rem;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    .blog-overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .blog-inner{
+        padding-top: 13rem;
+    }
+    img{
+        width: 20rem;
+    }
+    .inner{
+        padding-top: 10rem;
+    }
+    h3{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    h3::after{
+        content: "";
+        background: #9b1565;
+        display: block;
+        height: 0.3rem;
+        width: 7rem;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    h4{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    p{
+        font-size: 2rem;
+    }
+    h5{
+        font-size: 1.3rem;
+    }
+    .testimonial{
+        margin-left: 2.5rem;
+    }
+    .spech{
+        font-style: italic;
+    }
+}
+#contact-section{
+    background: linear-gradient(rgba(60, 94, 153, 0.9), rgba(60, 94, 153, 0.9)), url( '../img/bg/bg7.jpg') no-repeat center center;
+    min-height: 85rem;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    .contact-overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .contact-inner{
+        padding-top: 13rem;
+    }
+    h3{
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    h3::after{
+        content: "";
+        background: #1f3f78;
+        display: block;
+        height: 0.3rem;
+        width: 7rem;
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .inner{
+        padding-top: 7rem;
+    }
+    .btn{
+        background: #46ccdb;
+        font-size: 2rem;
+    }
+    .form-control{
+        background: #1f3f78;
+        border: none;
+    }
+    .form-control-lg{
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    ::placeholder {
+    color: #fff;
+  }
+}
+#footer{
+    .navbar{
+        background: #131360; 
+    } 
+    font-size: 2rem;
+}
+
+/*STICKY MENU*/
+.sticky{
+    position: fixed;
+    box-shadow: 0 .3rem .5rem rgba(255.255,255, .9);
+}
+
+@media(max-width: 576px){
+    .navbar{
+        .nav-item{
+            font-size: 1.8rem;
+        }
+        .navbar-toggler-icon{
+            height: 3.5rem;
+            width: 3.5rem;
+        }
+    }
+    #home-section{
+        min-height: 40rem;
+        p{
+            font-size: 2rem;
+        }
+        a{
+            font-size: 1.5rem;
+        }
+        .home-inner{
+            padding-top: 15rem;
+        }
+    }
+    #about-section{
+        min-height: 130rem;
+        h3{
+            font-size: 2rem;   
+        }
+        .about-inner{
+            padding-top: 10rem;
+        }
+        .inner{
+            padding-top: 5rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        h4{
+            font-size: 1.8rem;
+        }
+    }
+    #team-section{
+        min-height: 285rem;
+    .team-inner{
+        padding-top: 10rem;
+    }
+    .inner{
+        padding-top: 5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    p,h6{
+        font-size: 1.5rem;
+    }
+    }
+    #skills{
+        min-height: 145rem;
+        .skills-inner{
+            padding-top: 10rem;
+        }
+        .inner{
+            padding-top: 5rem;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        h4{
+            font-size: 1.8rem;
+        }
+    }
+    #work-section{
+        min-height: 150rem;
+        .work-inner{
+            padding-top: 8rem;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        .contact-inner{
+            padding-top: 10rem;
+        }
+        h4{
+            font-size: 1.8rem;
+        }
+    }
+    #blog-section{
+        min-height: 95rem;
+        h3{
+            font-size: 2rem;
+        }
+        h4{
+            font-size: 1.8rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        .blog-inner{
+            padding-top: 10rem;
+        }
+        .inner{
+            padding-top: 5rem;
+        }
+        .clear{
+            background: #d91c8d;
+        }
+    }
+    #contact-section{   
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        .contact-inner{
+            padding-top: 10rem;
+        }
+        .btn{
+            font-size: 1.5rem;
+        }
+    }
+}
